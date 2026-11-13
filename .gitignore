@@ -1,0 +1,15 @@
+# Modify:不将生成文件或任何个人数据纳入源码包。$saving-ai-agent-tokens
+/target/
+/dist/
+/artifacts/
+*.credentials
+# Modify:公开仓库同时排除本机授权、考勤与个人审计文件。$saving-ai-agent-tokens
+.env
+.env.*
+connection.json
+claims.json
+settings.json
+attendance-*.json
+real-integration.json
+performance.json
+

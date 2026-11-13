@@ -1,0 +1,8 @@
+# Modify:仅本项目使用已验证的依赖源和MSVC静态CRT。$saving-ai-agent-tokens
+[source.crates-io]
+replace-with = "rsproxy"
+[source.rsproxy]
+registry = "sparse+https://rsproxy.cn/index/"
+[target.x86_64-pc-windows-msvc]
+rustflags = ["-C", "target-feature=+crt-static"]
+
