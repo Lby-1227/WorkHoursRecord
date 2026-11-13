@@ -3,6 +3,13 @@
 
 Windows x64 桌面工时应用。使用 GPUI Kit 0.9.0 默认后端及官方 Rust MCP SDK rmcp 3.9.0，依赖由 Cargo.lock 锁定，不依赖 .NET 或 WebView。此程序与原 WPF 版本独立，不导入旧版授权、缓存或领取状态。
 
+<!-- Modify:提供GitHub Release的Windows程序下载入口；$saving-ai-agent-tokens -->
+## 软件下载
+
+[下载 Windows x64 运行包](https://github.com/Lby-1227/WorkHoursRecord/releases/latest/download/WorkHoursRecord-win-x64.zip) · [查看版本与更新说明](https://github.com/Lby-1227/WorkHoursRecord/releases/latest)
+
+下载后解压，双击 `WorkHoursRecord.exe`。首次使用需在系统浏览器连接本人钉钉账号和正确组织。源码下载需要自行构建，运行包可直接运行。
+
 ## 使用
 
 1. 运行 `dist\WorkHoursRecord.exe`，首次进入“设置配置”。
